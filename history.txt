@@ -1,0 +1,9 @@
+   0 mkdir -p /opt/test/ВАШЕИМЯ
+   1 cd /ВАШЕИМЯ
+   2 cd /opt/test/ВАШЕИМЯ
+   3 touch /opt/test/ВАШЕИМЯ/file.txt
+   4 cd ~
+   5 cp /opt/test/ВАШЕИМЯ/file.txt /tmp/file2.txt
+   6 rm /opt/test/ВАШЕИМЯ/file.txt
+   7 ls -a /tmp
+   8 history > history.txt
